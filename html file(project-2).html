@@ -1,0 +1,2158 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>ebed89316ad346e9a2db26cefc5cf50f</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="project--predicting-hiring-decisions-in-recruitment-data"
+class="cell markdown" id="oEWTahwZn2F_">
+<h1><strong>PROJECT-: Predicting Hiring Decisions in Recruitment
+Data</strong></h1>
+<p><strong>Introduction:</strong></p>
+<p>This dataset provides insights into factors influencing hiring
+decisions. Each record represents a candidate with various attributes
+considered during the hiring process. The goal is to predict whether a
+candidate will be hired based on these attributes.</p>
+<p><strong>Variables Description-:</strong></p>
+<p><strong>Age-:</strong></p>
+<p>Description: Age of the candidate.</p>
+<p>Data Range: 20 to 50 years.</p>
+<p>Data Type: Integer.</p>
+<p><strong>Gender-:</strong></p>
+<p>Description: Gender of the candidate.</p>
+<p>Categories: Male (0) or Female (1).</p>
+<p>Data Type: Binary.</p>
+<p><strong>Education Level-:</strong></p>
+<p>Description: Highest level of education attained by the
+candidate.</p>
+<p>Categories:</p>
+<p>1: Bachelor's (Type 1)</p>
+<p>2: Bachelor's (Type 2)</p>
+<p>3: Master's</p>
+<p>4: PhD</p>
+<p>Data Type: Categorical.</p>
+<p><strong>Experience Years-:</strong></p>
+<p>Description: Number of years of professional experience.</p>
+<p>Data Range: 0 to 15 years.</p>
+<p>Data Type: Integer.</p>
+<p><strong>Previous Companies Worked-:</strong></p>
+<p>Description: Number of previous companies where the candidate has
+worked.</p>
+<p>Data Range: 1 to 5 companies.</p>
+<p>Data Type: Integer.</p>
+<p><strong>Distance From Company-:</strong></p>
+<p>Description: Distance in kilometers from the candidate's residence to
+the hiring company.</p>
+<p>Data Range: 1 to 50 kilometers.</p>
+<p>Data Type: Float (continuous).</p>
+<p><strong>Interview Score-:</strong></p>
+<p>Description: Score achieved by the candidate in the interview
+process.</p>
+<p>Data Range: 0 to 100.</p>
+<p>Data Type: Integer.</p>
+<p><strong>Skill Score-:</strong></p>
+<p>Description: Assessment score of the candidate's technical
+skills.</p>
+<p>Data Range: 0 to 100.</p>
+<p>Data Type: Integer.</p>
+<p><strong>Personality Score-:</strong></p>
+<p>Description: Evaluation score of the candidate's personality
+traits.</p>
+<p>Data Range: 0 to 100.</p>
+<p>Data Type: Integer.</p>
+<p><strong>Recruitment Strategy-:</strong></p>
+<p>Description: Strategy adopted by the hiring team for recruitment.</p>
+<p><strong>Categories:</strong></p>
+<p>1: Aggressive</p>
+<p>2: Moderate</p>
+<p>3: Conservative</p>
+<p>Data Type: Categorical.</p>
+</section>
+<div class="cell markdown" id="8xaflHsatCSI">
+<p>DATA PREPROCESSING</p>
+</div>
+<div class="cell code" data-execution_count="11" id="JJINl-lQIfaO">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#importing the dependices</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sklearn.datasets</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> LabelEncoder</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn <span class="im">import</span> metrics</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="12" id="8adkpA0CJenF">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#loading the dataset into the pandas dataframe</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>hiring_dataset<span class="op">=</span>pd.read_csv(<span class="st">&quot;/content/recruitment_data.csv&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="7j_mj5YotGrF">
+<p>DATA ANALYSIS</p>
+</div>
+<div class="cell code" data-execution_count="13"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="mXTKx7WOJwd7" data-outputId="adca45a5-a228-46f2-babf-3986efcd4cf2">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#printing the dataset</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(hiring_dataset)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>      Age  Gender  EducationLevel  ExperienceYears  PreviousCompanies  \
+0      26       1               2                0                  3   
+1      39       1               4               12                  3   
+2      48       0               2                3                  2   
+3      34       1               2                5                  2   
+4      30       0               1                6                  1   
+...   ...     ...             ...              ...                ...   
+1495   48       0               2                3                  4   
+1496   27       1               2               10                  3   
+1497   24       1               1                1                  2   
+1498   48       0               2                4                  4   
+1499   34       1               2               11                  5   
+
+      DistanceFromCompany  InterviewScore  SkillScore  PersonalityScore  \
+0               26.783828              48          78                91   
+1               25.862694              35          68                80   
+2                9.920805              20          67                13   
+3                6.407751              36          27                70   
+4               43.105343              23          52                85   
+...                   ...             ...         ...               ...   
+1495             9.183783              66           3                80   
+1496            14.847731              43          97                 7   
+1497             4.289911              31          91                58   
+1498            36.299263               9          37                44   
+1499            12.910472              63          40                26   
+
+      RecruitmentStrategy  HiringDecision  
+0                       1               1  
+1                       2               1  
+2                       2               0  
+3                       3               0  
+4                       2               0  
+...                   ...             ...  
+1495                    3               1  
+1496                    2               0  
+1497                    1               1  
+1498                    2               1  
+1499                    2               1  
+
+[1500 rows x 11 columns]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="14"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:226}"
+id="qivvWV3eJ9Jp" data-outputId="9c4c69b8-5f25-4167-d78d-72c24b859a3b">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#printing first 5 rows</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>hiring_dataset.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="14">
+
+  <div id="df-24ecaed9-8d22-4c75-b631-bbfd20a83dbe" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Age</th>
+      <th>Gender</th>
+      <th>EducationLevel</th>
+      <th>ExperienceYears</th>
+      <th>PreviousCompanies</th>
+      <th>DistanceFromCompany</th>
+      <th>InterviewScore</th>
+      <th>SkillScore</th>
+      <th>PersonalityScore</th>
+      <th>RecruitmentStrategy</th>
+      <th>HiringDecision</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>26</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>3</td>
+      <td>26.783828</td>
+      <td>48</td>
+      <td>78</td>
+      <td>91</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>39</td>
+      <td>1</td>
+      <td>4</td>
+      <td>12</td>
+      <td>3</td>
+      <td>25.862694</td>
+      <td>35</td>
+      <td>68</td>
+      <td>80</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>48</td>
+      <td>0</td>
+      <td>2</td>
+      <td>3</td>
+      <td>2</td>
+      <td>9.920805</td>
+      <td>20</td>
+      <td>67</td>
+      <td>13</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>34</td>
+      <td>1</td>
+      <td>2</td>
+      <td>5</td>
+      <td>2</td>
+      <td>6.407751</td>
+      <td>36</td>
+      <td>27</td>
+      <td>70</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>30</td>
+      <td>0</td>
+      <td>1</td>
+      <td>6</td>
+      <td>1</td>
+      <td>43.105343</td>
+      <td>23</td>
+      <td>52</td>
+      <td>85</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-24ecaed9-8d22-4c75-b631-bbfd20a83dbe')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-24ecaed9-8d22-4c75-b631-bbfd20a83dbe button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-24ecaed9-8d22-4c75-b631-bbfd20a83dbe');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-ce27461c-c2d7-4396-b6a1-6a0be9b27d60">
+  <button class="colab-df-quickchart" onclick="quickchart('df-ce27461c-c2d7-4396-b6a1-6a0be9b27d60')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-ce27461c-c2d7-4396-b6a1-6a0be9b27d60 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code" data-execution_count="15"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:226}"
+id="o9YKOGZSKNHc" data-outputId="6cd2cb03-9e8f-4a9b-89c0-56fce4e02a39">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#printing the last 5 rows</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>hiring_dataset.tail()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+
+  <div id="df-00b182d2-27c1-4339-9472-ff50a5e23e46" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Age</th>
+      <th>Gender</th>
+      <th>EducationLevel</th>
+      <th>ExperienceYears</th>
+      <th>PreviousCompanies</th>
+      <th>DistanceFromCompany</th>
+      <th>InterviewScore</th>
+      <th>SkillScore</th>
+      <th>PersonalityScore</th>
+      <th>RecruitmentStrategy</th>
+      <th>HiringDecision</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1495</th>
+      <td>48</td>
+      <td>0</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>9.183783</td>
+      <td>66</td>
+      <td>3</td>
+      <td>80</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1496</th>
+      <td>27</td>
+      <td>1</td>
+      <td>2</td>
+      <td>10</td>
+      <td>3</td>
+      <td>14.847731</td>
+      <td>43</td>
+      <td>97</td>
+      <td>7</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1497</th>
+      <td>24</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>4.289911</td>
+      <td>31</td>
+      <td>91</td>
+      <td>58</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1498</th>
+      <td>48</td>
+      <td>0</td>
+      <td>2</td>
+      <td>4</td>
+      <td>4</td>
+      <td>36.299263</td>
+      <td>9</td>
+      <td>37</td>
+      <td>44</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1499</th>
+      <td>34</td>
+      <td>1</td>
+      <td>2</td>
+      <td>11</td>
+      <td>5</td>
+      <td>12.910472</td>
+      <td>63</td>
+      <td>40</td>
+      <td>26</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-00b182d2-27c1-4339-9472-ff50a5e23e46')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-00b182d2-27c1-4339-9472-ff50a5e23e46 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-00b182d2-27c1-4339-9472-ff50a5e23e46');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-bc7abc4c-5479-45c8-9d2f-741899c529cb">
+  <button class="colab-df-quickchart" onclick="quickchart('df-bc7abc4c-5479-45c8-9d2f-741899c529cb')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-bc7abc4c-5479-45c8-9d2f-741899c529cb button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell code" data-execution_count="16"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="c8xPKBW9KxTI" data-outputId="9f846874-6705-4333-9c91-3ece496b5601">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#getting info about dataframe</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>hiring_dataset.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 1500 entries, 0 to 1499
+Data columns (total 11 columns):
+ #   Column               Non-Null Count  Dtype  
+---  ------               --------------  -----  
+ 0   Age                  1500 non-null   int64  
+ 1   Gender               1500 non-null   int64  
+ 2   EducationLevel       1500 non-null   int64  
+ 3   ExperienceYears      1500 non-null   int64  
+ 4   PreviousCompanies    1500 non-null   int64  
+ 5   DistanceFromCompany  1500 non-null   float64
+ 6   InterviewScore       1500 non-null   int64  
+ 7   SkillScore           1500 non-null   int64  
+ 8   PersonalityScore     1500 non-null   int64  
+ 9   RecruitmentStrategy  1500 non-null   int64  
+ 10  HiringDecision       1500 non-null   int64  
+dtypes: float64(1), int64(10)
+memory usage: 129.0 KB
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="17" id="iJmIBUXZtwc3">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#changing the datatype from float to int</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>hiring_dataset<span class="op">=</span>hiring_dataset.astype(<span class="bu">int</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="18"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Q85rog0RuSSc" data-outputId="60fdac15-dfae-4b5b-ff7f-9e20e3977bba">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>hiring_dataset.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 1500 entries, 0 to 1499
+Data columns (total 11 columns):
+ #   Column               Non-Null Count  Dtype
+---  ------               --------------  -----
+ 0   Age                  1500 non-null   int64
+ 1   Gender               1500 non-null   int64
+ 2   EducationLevel       1500 non-null   int64
+ 3   ExperienceYears      1500 non-null   int64
+ 4   PreviousCompanies    1500 non-null   int64
+ 5   DistanceFromCompany  1500 non-null   int64
+ 6   InterviewScore       1500 non-null   int64
+ 7   SkillScore           1500 non-null   int64
+ 8   PersonalityScore     1500 non-null   int64
+ 9   RecruitmentStrategy  1500 non-null   int64
+ 10  HiringDecision       1500 non-null   int64
+dtypes: int64(11)
+memory usage: 129.0 KB
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="19"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ZOq9B5ikLEHz" data-outputId="2d87c7fb-a0a3-4dcf-f03f-527652411370">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#size of the dataset</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>hiring_dataset.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+<pre><code>(1500, 11)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="20"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ca04foM7LMRr" data-outputId="73d1c0dc-59dc-4a1e-e7a5-967ab2d50d02">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#checking of missing values</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>hiring_dataset.isnull().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="20">
+<pre><code>Age                    0
+Gender                 0
+EducationLevel         0
+ExperienceYears        0
+PreviousCompanies      0
+DistanceFromCompany    0
+InterviewScore         0
+SkillScore             0
+PersonalityScore       0
+RecruitmentStrategy    0
+HiringDecision         0
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="21"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="5Sgynsx8LUgv" data-outputId="386e39a3-76c8-4039-d628-329c3276a2c1">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#plotting each column in histogram chart</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>hiring_dataset.hist(figsize<span class="op">=</span>(<span class="dv">15</span>,<span class="dv">15</span>))</span></code></pre></div>
+<div class="output execute_result" data-execution_count="21">
+<pre><code>array([[&lt;Axes: title={&#39;center&#39;: &#39;Age&#39;}&gt;,
+        &lt;Axes: title={&#39;center&#39;: &#39;Gender&#39;}&gt;,
+        &lt;Axes: title={&#39;center&#39;: &#39;EducationLevel&#39;}&gt;],
+       [&lt;Axes: title={&#39;center&#39;: &#39;ExperienceYears&#39;}&gt;,
+        &lt;Axes: title={&#39;center&#39;: &#39;PreviousCompanies&#39;}&gt;,
+        &lt;Axes: title={&#39;center&#39;: &#39;DistanceFromCompany&#39;}&gt;],
+       [&lt;Axes: title={&#39;center&#39;: &#39;InterviewScore&#39;}&gt;,
+        &lt;Axes: title={&#39;center&#39;: &#39;SkillScore&#39;}&gt;,
+        &lt;Axes: title={&#39;center&#39;: &#39;PersonalityScore&#39;}&gt;],
+       [&lt;Axes: title={&#39;center&#39;: &#39;RecruitmentStrategy&#39;}&gt;,
+        &lt;Axes: title={&#39;center&#39;: &#39;HiringDecision&#39;}&gt;, &lt;Axes: &gt;]],
+      dtype=object)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_7ca704c23637474c9f206bd3edd3fe48/f0f40b5a867549409619db3291071c94862defb2.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="22"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:320}"
+id="dv_YWbjBLyHX" data-outputId="1697a2d0-0585-4627-e6fd-201f3f97d23a">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">#statistical information about dataset</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>hiring_dataset.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="22">
+
+  <div id="df-e27c59a0-7cd0-4311-8122-be37b7d3849a" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Age</th>
+      <th>Gender</th>
+      <th>EducationLevel</th>
+      <th>ExperienceYears</th>
+      <th>PreviousCompanies</th>
+      <th>DistanceFromCompany</th>
+      <th>InterviewScore</th>
+      <th>SkillScore</th>
+      <th>PersonalityScore</th>
+      <th>RecruitmentStrategy</th>
+      <th>HiringDecision</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>1500.000000</td>
+      <td>1500.000000</td>
+      <td>1500.000000</td>
+      <td>1500.000000</td>
+      <td>1500.00000</td>
+      <td>1500.000000</td>
+      <td>1500.000000</td>
+      <td>1500.000000</td>
+      <td>1500.000000</td>
+      <td>1500.000000</td>
+      <td>1500.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>35.148667</td>
+      <td>0.492000</td>
+      <td>2.188000</td>
+      <td>7.694000</td>
+      <td>3.00200</td>
+      <td>25.010667</td>
+      <td>50.564000</td>
+      <td>51.116000</td>
+      <td>49.387333</td>
+      <td>1.893333</td>
+      <td>0.310000</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>9.252728</td>
+      <td>0.500103</td>
+      <td>0.862449</td>
+      <td>4.641414</td>
+      <td>1.41067</td>
+      <td>14.569056</td>
+      <td>28.626215</td>
+      <td>29.353563</td>
+      <td>29.353201</td>
+      <td>0.689642</td>
+      <td>0.462647</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>20.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.00000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>27.000000</td>
+      <td>0.000000</td>
+      <td>2.000000</td>
+      <td>4.000000</td>
+      <td>2.00000</td>
+      <td>12.000000</td>
+      <td>25.000000</td>
+      <td>25.750000</td>
+      <td>23.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>35.000000</td>
+      <td>0.000000</td>
+      <td>2.000000</td>
+      <td>8.000000</td>
+      <td>3.00000</td>
+      <td>25.000000</td>
+      <td>52.000000</td>
+      <td>53.000000</td>
+      <td>49.000000</td>
+      <td>2.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>43.000000</td>
+      <td>1.000000</td>
+      <td>3.000000</td>
+      <td>12.000000</td>
+      <td>4.00000</td>
+      <td>37.000000</td>
+      <td>75.000000</td>
+      <td>76.000000</td>
+      <td>76.000000</td>
+      <td>2.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>50.000000</td>
+      <td>1.000000</td>
+      <td>4.000000</td>
+      <td>15.000000</td>
+      <td>5.00000</td>
+      <td>50.000000</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>100.000000</td>
+      <td>3.000000</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-e27c59a0-7cd0-4311-8122-be37b7d3849a')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-e27c59a0-7cd0-4311-8122-be37b7d3849a button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-e27c59a0-7cd0-4311-8122-be37b7d3849a');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-f057bc3d-4aad-4d5d-8c47-e1d96c0d9939">
+  <button class="colab-df-quickchart" onclick="quickchart('df-f057bc3d-4aad-4d5d-8c47-e1d96c0d9939')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-f057bc3d-4aad-4d5d-8c47-e1d96c0d9939 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="_A0hVFEusSF0">
+<p>UNDERSTANDING THE CORRELATION BETWEEN THE FEATURES OF DATASET</p>
+</div>
+<div class="cell code" data-execution_count="51"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:925}"
+id="yXvD0MtROKMv" data-outputId="6f2cf57a-959e-4e7c-d28e-523715029bf7">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co">#understanding the correaltion</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="co">#positive correlation</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="co">#negative correaltion</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>correlation<span class="op">=</span> hiring_dataset.corr()</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">10</span>))</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>sns.heatmap(correlation,cbar<span class="op">=</span><span class="va">True</span>,square<span class="op">=</span><span class="va">True</span>,fmt<span class="op">=</span><span class="st">&#39;.1f&#39;</span>,annot<span class="op">=</span><span class="va">True</span>,annot_kws<span class="op">=</span>{<span class="st">&#39;size&#39;</span>:<span class="dv">8</span>},</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>cmap<span class="op">=</span><span class="st">&#39;rocket&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="51">
+<pre><code>&lt;Axes: &gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_7ca704c23637474c9f206bd3edd3fe48/01313151a0900b03b4faebcff96fc8a3783635d6.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="MCWd7ltbtbj_">
+<p>LABEL FOR HiringDecision COLUMN</p>
+</div>
+<div class="cell code" data-execution_count="24"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="XFhrkS0SRPqk" data-outputId="f94ac204-fee7-46ce-80a9-060017aff607">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>hiring_dataset[<span class="st">&#39;HiringDecision&#39;</span>].value_counts()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="24">
+<pre><code>HiringDecision
+0    1035
+1     465
+Name: count, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="xezuCY0DRfIL">
+<p>0----non- hired 1------hired</p>
+</div>
+<div class="cell markdown" id="F7zKMg7br_tK">
+<p>STATISTICAL DESCRIPTION ABOUT HiringDecision column</p>
+</div>
+<div class="cell code" data-execution_count="25"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:163}"
+id="KPlL_2LURkI0" data-outputId="2b61a532-2fc7-4301-b860-beeb871475e4">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>hiring_dataset.groupby(<span class="st">&#39;HiringDecision&#39;</span>).mean()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="25">
+
+  <div id="df-e4c6e0f2-f69a-45fd-aa2c-c98ba9576ec0" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Age</th>
+      <th>Gender</th>
+      <th>EducationLevel</th>
+      <th>ExperienceYears</th>
+      <th>PreviousCompanies</th>
+      <th>DistanceFromCompany</th>
+      <th>InterviewScore</th>
+      <th>SkillScore</th>
+      <th>PersonalityScore</th>
+      <th>RecruitmentStrategy</th>
+    </tr>
+    <tr>
+      <th>HiringDecision</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>35.137198</td>
+      <td>0.492754</td>
+      <td>2.051208</td>
+      <td>7.313043</td>
+      <td>2.960386</td>
+      <td>25.177778</td>
+      <td>47.762319</td>
+      <td>47.110145</td>
+      <td>46.059903</td>
+      <td>2.114010</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>35.174194</td>
+      <td>0.490323</td>
+      <td>2.492473</td>
+      <td>8.541935</td>
+      <td>3.094624</td>
+      <td>24.638710</td>
+      <td>56.800000</td>
+      <td>60.032258</td>
+      <td>56.793548</td>
+      <td>1.402151</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-e4c6e0f2-f69a-45fd-aa2c-c98ba9576ec0')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-e4c6e0f2-f69a-45fd-aa2c-c98ba9576ec0 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-e4c6e0f2-f69a-45fd-aa2c-c98ba9576ec0');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-13912179-c5ba-433d-a934-aa0baa6fd3bd">
+  <button class="colab-df-quickchart" onclick="quickchart('df-13912179-c5ba-433d-a934-aa0baa6fd3bd')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-13912179-c5ba-433d-a934-aa0baa6fd3bd button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="7I_spVI_risI">
+<p>SPLITTING DATASET INTO FEATURES AND TARGET</p>
+</div>
+<div class="cell code" data-execution_count="26" id="piLfH1OkO28t">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co">#splitting the datset into features and target</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>X<span class="op">=</span>hiring_dataset.drop([<span class="st">&#39;HiringDecision&#39;</span>],axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>Y<span class="op">=</span>hiring_dataset[<span class="st">&#39;HiringDecision&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="27"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="kmxr3gaOPo7u" data-outputId="c31fdb26-63d7-40af-a90f-ee9bb5c7c2c9">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(X)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>      Age  Gender  EducationLevel  ExperienceYears  PreviousCompanies  \
+0      26       1               2                0                  3   
+1      39       1               4               12                  3   
+2      48       0               2                3                  2   
+3      34       1               2                5                  2   
+4      30       0               1                6                  1   
+...   ...     ...             ...              ...                ...   
+1495   48       0               2                3                  4   
+1496   27       1               2               10                  3   
+1497   24       1               1                1                  2   
+1498   48       0               2                4                  4   
+1499   34       1               2               11                  5   
+
+      DistanceFromCompany  InterviewScore  SkillScore  PersonalityScore  \
+0                      26              48          78                91   
+1                      25              35          68                80   
+2                       9              20          67                13   
+3                       6              36          27                70   
+4                      43              23          52                85   
+...                   ...             ...         ...               ...   
+1495                    9              66           3                80   
+1496                   14              43          97                 7   
+1497                    4              31          91                58   
+1498                   36               9          37                44   
+1499                   12              63          40                26   
+
+      RecruitmentStrategy  
+0                       1  
+1                       2  
+2                       2  
+3                       3  
+4                       2  
+...                   ...  
+1495                    3  
+1496                    2  
+1497                    1  
+1498                    2  
+1499                    2  
+
+[1500 rows x 10 columns]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="28"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="NLJkP568QScX" data-outputId="9e1333d9-7c50-48b4-e8c9-8eabfe945d19">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(Y)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>0       1
+1       1
+2       0
+3       0
+4       0
+       ..
+1495    1
+1496    0
+1497    1
+1498    1
+1499    1
+Name: HiringDecision, Length: 1500, dtype: int64
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="88BmL8MHQl22">
+<p>0-----non-hired 1-------hired</p>
+</div>
+<div class="cell markdown" id="R6_BEk9Nrpwc">
+<p>STANDARDIZE THE DATA</p>
+</div>
+<div class="cell code" data-execution_count="29"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="TtZNiactQf_K" data-outputId="9a659a4b-46e7-4d83-ce4e-479f657f9370">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co">#data standardization</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>hiring_dataset.std()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="29">
+<pre><code>Age                     9.252728
+Gender                  0.500103
+EducationLevel          0.862449
+ExperienceYears         4.641414
+PreviousCompanies       1.410670
+DistanceFromCompany    14.569056
+InterviewScore         28.626215
+SkillScore             29.353563
+PersonalityScore       29.353201
+RecruitmentStrategy     0.689642
+HiringDecision          0.462647
+dtype: float64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="30" id="SVUtZ0Oxd--A">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co">#standardize the data</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>scaler<span class="op">=</span>StandardScaler()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="31"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:74}"
+id="YMZU2MxxeQln" data-outputId="e4c98fef-fb97-4dc5-f9ed-febc1aee0b13">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>scaler.fit(X)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="31">
+<style>#sk-container-id-1 {color: black;background-color: white;}#sk-container-id-1 pre{padding: 0;}#sk-container-id-1 div.sk-toggleable {background-color: white;}#sk-container-id-1 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-1 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-1 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-1 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-1 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-1 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-1 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-1 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-1 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-1 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-1 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-1 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-1 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-1 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-1 div.sk-item {position: relative;z-index: 1;}#sk-container-id-1 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-1 div.sk-item::before, #sk-container-id-1 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-1 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-1 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-1 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-1 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-1 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-1 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-1 div.sk-label-container {text-align: center;}#sk-container-id-1 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-1 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-1" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>StandardScaler()</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-1" type="checkbox" checked><label for="sk-estimator-id-1" class="sk-toggleable__label sk-toggleable__label-arrow">StandardScaler</label><div class="sk-toggleable__content"><pre>StandardScaler()</pre></div></div></div></div></div>
+</div>
+</div>
+<div class="cell code" data-execution_count="32" id="6RKmTPTleWst">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>standardized_data<span class="op">=</span>scaler.transform(X)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="33"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ANjS4YvFefa-" data-outputId="fd3afb63-3740-4ae8-e40f-37cafc31f6b9">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(standardized_data)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[[-0.9890832   1.01613007 -0.21805656 ...  0.91617383  1.41812626
+  -1.29579025]
+ [ 0.41637642  1.01613007  2.1016941  ...  0.57538606  1.0432551
+   0.15472122]
+ [ 1.38938694 -0.98412598 -0.21805656 ...  0.54130729 -1.2400511
+   0.15472122]
+ ...
+ [-1.20530776  1.01613007 -1.37793189 ...  1.35919793  0.29351276
+  -1.29579025]
+ [ 1.38938694 -0.98412598 -0.21805656 ... -0.48105601 -0.18359599
+   0.15472122]
+ [-0.12418497  1.01613007 -0.21805656 ... -0.37881968 -0.79702154
+   0.15472122]]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="34" id="3THOao52ei85">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>features<span class="op">=</span>standardized_data</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>target<span class="op">=</span>hiring_dataset[<span class="st">&#39;HiringDecision&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="35"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="fVuLpLJpewkI" data-outputId="709446d9-312b-4fdd-f449-adc224afede2">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(features)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[[-0.9890832   1.01613007 -0.21805656 ...  0.91617383  1.41812626
+  -1.29579025]
+ [ 0.41637642  1.01613007  2.1016941  ...  0.57538606  1.0432551
+   0.15472122]
+ [ 1.38938694 -0.98412598 -0.21805656 ...  0.54130729 -1.2400511
+   0.15472122]
+ ...
+ [-1.20530776  1.01613007 -1.37793189 ...  1.35919793  0.29351276
+  -1.29579025]
+ [ 1.38938694 -0.98412598 -0.21805656 ... -0.48105601 -0.18359599
+   0.15472122]
+ [-0.12418497  1.01613007 -0.21805656 ... -0.37881968 -0.79702154
+   0.15472122]]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="36"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Mc7SPH00eziJ" data-outputId="ee1319fa-03b1-43e9-da51-33a8bd9a9c1c">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(target)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>0       1
+1       1
+2       0
+3       0
+4       0
+       ..
+1495    1
+1496    0
+1497    1
+1498    1
+1499    1
+Name: HiringDecision, Length: 1500, dtype: int64
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="v_kw3PJBr0RA">
+<p>SPLITTING THE DATA INTO TEST DATA AND TRAINING DATA</p>
+</div>
+<div class="cell code" data-execution_count="37" id="uurgN-wYe1vI">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a> <span class="co">#splitting the dataset into test and  training data</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>X_train,X_test,Y_train,Y_test<span class="op">=</span>train_test_split(X,Y,test_size<span class="op">=</span><span class="fl">0.2</span>,random_state<span class="op">=</span><span class="dv">2</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="38"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="WmOL17eugFUl" data-outputId="606e7924-8965-4a58-8218-fb14738811be">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(features.shape,X_train.shape,X_test.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>(1500, 10) (1200, 10) (300, 10)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="zpLHIWtyrEb6">
+<p>MODEL TRAINING</p>
+</div>
+<div class="cell code" data-execution_count="39" id="mE6cyUX2gPe0">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co">#model training</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>classifier<span class="op">=</span>LogisticRegression()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="40"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:213}"
+id="TiCn6xxsgvpw" data-outputId="88a24e68-80be-419d-b445-d64965751ed6">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="co">#fitting the training data into  the model</span></span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>classifier.fit(X_train,Y_train)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.10/dist-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="40">
+<style>#sk-container-id-2 {color: black;background-color: white;}#sk-container-id-2 pre{padding: 0;}#sk-container-id-2 div.sk-toggleable {background-color: white;}#sk-container-id-2 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-2 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-2 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-2 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-2 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-2 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-2 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-2 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-2 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-2 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-2 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-2 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-2 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-2 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-2 div.sk-item {position: relative;z-index: 1;}#sk-container-id-2 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-2 div.sk-item::before, #sk-container-id-2 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-2 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-2 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-2 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-2 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-2 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-2 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-2 div.sk-label-container {text-align: center;}#sk-container-id-2 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-2 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-2" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>LogisticRegression()</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-2" type="checkbox" checked><label for="sk-estimator-id-2" class="sk-toggleable__label sk-toggleable__label-arrow">LogisticRegression</label><div class="sk-toggleable__content"><pre>LogisticRegression()</pre></div></div></div></div></div>
+</div>
+</div>
+<div class="cell markdown" id="fiv9pZ-Orbfz">
+<p>MODEL EVALUATION</p>
+</div>
+<div class="cell code" data-execution_count="41" id="Pw7i2DxZg6Nz">
+<div class="sourceCode" id="cb47"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co">#model evaluation</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>train_data_prediction<span class="op">=</span>classifier.predict(X_train)</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>training_data_accuracy<span class="op">=</span>accuracy_score(Y_train,train_data_prediction)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="42"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="wWInAWPvt_C_" data-outputId="3dbd9329-3989-4e31-9f1a-1610d902a728">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;the accuracy  score  of training data:&#39;</span>,training_data_accuracy)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>the accuracy  score  of training data: 0.8691666666666666
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="43" id="37-aGEFvuphy">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="co">#model evaluation on test data</span></span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>test_data_prediction<span class="op">=</span>classifier.predict(X_test)</span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>test_data_accuracy_score<span class="op">=</span>accuracy_score(Y_test,test_data_prediction)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="44"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="5YyBxLxEvB5i" data-outputId="2a448b74-34b4-4799-85b7-1b76ef240d8f">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;test data accuracy score is:&quot;</span>,test_data_accuracy_score)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>test data accuracy score is: 0.8466666666666667
+</code></pre>
+</div>
+</div>
+<section id="making-a-predictive-system" class="cell markdown"
+id="bPRbWPXcq6Oh">
+<h3>MAKING A PREDICTIVE SYSTEM</h3>
+</section>
+<div class="cell code" data-execution_count="57"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="97FuhnunwnJU" data-outputId="746a4eff-152e-450c-8697-63714c75ab39">
+<div class="sourceCode" id="cb53"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="co">#making a predictive system</span></span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a>input_data<span class="op">=</span>(<span class="dv">27</span>,<span class="dv">0</span>,<span class="dv">3</span>,<span class="dv">14</span>,<span class="dv">4</span>,<span class="fl">31.706658809375902</span>,<span class="dv">54</span>,<span class="dv">50</span>,<span class="dv">50</span>,<span class="dv">1</span>)</span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a><span class="co">#changing the  input_data to numpy array</span></span>
+<span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a>input_data_as_array<span class="op">=</span> np.asarray(input_data)</span>
+<span id="cb53-6"><a href="#cb53-6" aria-hidden="true" tabindex="-1"></a><span class="co">#reshaping the data</span></span>
+<span id="cb53-7"><a href="#cb53-7" aria-hidden="true" tabindex="-1"></a>input_data_reshaped<span class="op">=</span>input_data_as_array.reshape(<span class="dv">1</span>,<span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb53-8"><a href="#cb53-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-9"><a href="#cb53-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-10"><a href="#cb53-10" aria-hidden="true" tabindex="-1"></a>prediction<span class="op">=</span>classifier.predict(input_data_reshaped)</span>
+<span id="cb53-11"><a href="#cb53-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(prediction)</span>
+<span id="cb53-12"><a href="#cb53-12" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> prediction[<span class="dv">0</span>]<span class="op">==</span><span class="dv">0</span>:</span>
+<span id="cb53-13"><a href="#cb53-13" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&#39;The person is not hired&#39;</span>)</span>
+<span id="cb53-14"><a href="#cb53-14" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb53-15"><a href="#cb53-15" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="st">&#39;The person is hired&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[1]
+The person is hired
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.10/dist-packages/sklearn/base.py:439: UserWarning: X does not have valid feature names, but LogisticRegression was fitted with feature names
+  warnings.warn(
+</code></pre>
+</div>
+</div>
+<div class="cell code" id="e-u7itIUu6na">
+<div class="sourceCode" id="cb56"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
